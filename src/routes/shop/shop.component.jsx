@@ -4,6 +4,7 @@
 import { useContext } from "react"
 import { ProductsContext } from "../../contexts/products.context";
 const Shop = ()=>{
+    // These Products are from context files hardcoded:
     const {products} = useContext(ProductsContext)
     return (
         <div>
