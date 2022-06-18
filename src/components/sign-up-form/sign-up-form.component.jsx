@@ -32,7 +32,7 @@ const SignUpForm = ()=>{
         }
         try{
             const { user } = await createAuthUserWithEmailAndPassword(email, password);
-            setCurrentUser(user)
+            setCurrentUser(user) 
             await createAuthUserWithEmailAndPassword(user, {displayName})
 
             resetFormField();
