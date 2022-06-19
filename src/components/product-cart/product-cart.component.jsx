@@ -6,7 +6,7 @@ import "./product-cart.styles.scss"
 const ProductCard = ({ product }) => {
     const { name, price , imageUrl} = product;
     return (
-        <div className="product-cart-container">
+        <div className="product-card-container">
             <img src={imageUrl} alt={`${name}`} />
             <div className="footer">
                 <span className="name">{name}</span>
