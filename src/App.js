@@ -13,10 +13,12 @@ const  App= ()=> {
             <Route index element={<Home />} />
             <Route path="shop" element={<Shop />} />
             <Route path="auth" element={<Authentication />} />
-
+                // These are roots for our complete App and Also entry Point
             </Route>
             
           </Routes>
+          
+          
         )
 }
 
